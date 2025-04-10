@@ -1,13 +1,14 @@
 {
   "name": "remax-chatbot",
   "version": "1.0.0",
-  "main": "chatbot.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node chatbot.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "moment-timezone": "^0.5.45",
     "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": ""
+    "whatsapp-web.js": "^1.22.1"
   }
 }
+
